@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 10em;
+    padding: 0;
+    margin: auto;
+}
+/* Edit headers */
+h1 {
+    font-size: 60px;
+      text-align: center;
+      margin-left: 0;
+  }
+  
+  h2{
+    font-size: 45px;
+  }
+
+  /* Edit top tab bar */
+.tabs {
+    display: flex;
+    background: #0073e6;
+    padding: 10px;
+}
+
+.tabs a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.tabs a:hover {
+    background: #005bb5;
+}
+
+.content-container {
+    margin-left: 5em;
+    margin-right: 5em;
+  }
+
+  .people-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.people-name-photo {
+    text-align: center;
+    margin: 10px;
+    flex: 1 1 200px;
+    max-width: 200px;
+}
+
+.people-name-photo img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.people-name-photo h4, .people-name-photo h5 {
+    margin: 5px 0;
+}
+
+.about-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.about-photo {
+    flex: 1;
+    width: 48%;
+    float: left;
+}
+
+.about-photo img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.about-text {
+    flex: 2;
+    text-align: left;
+    float: right;
+    width: 48%;
+}
+
